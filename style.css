@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(218, 191, 233);
+}
+
+.total_container{
+    height: 450px;
+    width: 600px;
+    background-color: rgb(183, 109, 223);
+    border: 15px solid rgb(129, 66, 163);
+    margin: 100px auto;
+    position: relative;
+    background-image: url(/2nd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fa-arrow-left{
+    position: absolute;
+    top:50%;
+    left:-15px;
+    background-color: rgb(183, 109, 223);
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.fa-arrow-right{
+    position: absolute;
+    top:50%;
+    right:-15px;
+    background-color: rgb(183, 109, 223);
+    padding: 6px;
+    border-radius: 6px;
+}
+
+
+
